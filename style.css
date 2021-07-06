@@ -47,10 +47,34 @@ header nav a {
   text-decoration: none;
   color: black;
   padding: 7px 25px;
+  transition: 0.5s;
 }
 
 header nav a:hover {
   border-bottom: solid #0d674b;
+}
+
+#contact-btn {
+  font-size: 15px;
+  padding: 15px 50px;
+  text-decoration: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to left,
+    #00a907 20%,
+    #0d674b 51%,
+    #00a907 100%
+  );
+  transition: 0.5s;
+
+  box-shadow: 5px 3px 20px #01d20872;
+  border-radius: 30px;
+}
+
+#contact-btn:hover {
+  background-position: right center; /* change the direction of the change here */
 }
 .container {
   display: flex;
@@ -88,8 +112,13 @@ button {
     #0d674b 51%,
     #00a907 100%
   );
-  box-shadow: 5px 3px 20px #00a9063a;
+  transition: 0.5s;
+
+  box-shadow: 5px 5px 20px #01d20872;
   border-radius: 30px;
+}
+button:hover {
+  background-position: right center; /* change the direction of the change here */
 }
 
 .slider-right {
