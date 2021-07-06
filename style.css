@@ -17,6 +17,7 @@ h2 {
   line-height: 130%;
   font-family: "Montserrat", sans-serif;
 }
+
 h3 {
   color: rgb(0, 0, 0);
   font-size: 30px;
@@ -55,20 +56,20 @@ header nav a:hover {
 
 #contact-btn {
   font-size: 15px;
-  padding: 15px 50px;
+  background-size: 200% auto;
+  padding: 15px 40px;
   text-decoration: none;
   color: white;
   border: none;
   cursor: pointer;
   background-image: linear-gradient(
     to left,
-    #00a907 20%,
+    #00a907 10%,
     #0d674b 51%,
     #00a907 100%
   );
   transition: 0.5s;
-
-  box-shadow: 5px 3px 20px #01d20872;
+  box-shadow: 5px 5px 20px #01d20872;
   border-radius: 30px;
 }
 
@@ -96,9 +97,8 @@ header nav a:hover {
   color: gray;
 }
 
-button {
+.btn {
   font-size: 20px;
-  display: block;
   background-size: 200% auto;
   padding: 20px 60px;
   text-decoration: none;
@@ -108,7 +108,7 @@ button {
   background-image: linear-gradient(
     to left,
     #00a907 10%,
-    #0d674b 51%,
+    #0d674b 50%,
     #00a907 100%
   );
   transition: 0.5s;
@@ -116,7 +116,7 @@ button {
   box-shadow: 5px 5px 20px #01d20872;
   border-radius: 30px;
 }
-button:hover {
+.btn:hover {
   background-position: right center; /* change the direction of the change here */
 }
 
@@ -151,20 +151,6 @@ button:hover {
 .my-recipies .heading {
   text-align: center;
   margin: auto 20%;
-}
-
-.my-recipies h2 {
-  color: rgb(77, 77, 77);
-  font-size: 40px;
-  line-height: 130%;
-  font-family: "Montserrat", sans-serif;
-}
-
-.my-recipies .heading p {
-  font-size: 20px;
-  padding-bottom: 5%;
-  line-height: 180%;
-  color: gray;
 }
 
 .my-recipies .recipies-list {
