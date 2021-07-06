@@ -31,15 +31,50 @@ body {
 }
 
 button {
+  display: block;
+  background-size: 200% auto;
   padding: 15px 40px;
+  text-decoration: none;
   color: white;
   border: none;
   cursor: pointer;
-  background-image: linear-gradient(#00a907, #0d674b);
+  background-image: linear-gradient(
+    to left,
+    #00a907 10%,
+    #0d674b 51%,
+    #00a907 100%
+  );
+  box-shadow: 5px 3px 20px #00a90698;
   border-radius: 20px;
 }
 
 .slider-right {
   text-align: end;
   width: 50%;
+}
+
+.about-me {
+  background-image: url(./images/about-me-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+}
+
+.about-me-left img {
+  padding-top: 25%;
+
+  margin: 0px;
+}
+.about-me-right h2 {
+  color: rgb(77, 77, 77);
+  font-size: 45px;
+  line-height: 130%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.about-me-right p {
+  font-size: 20px;
+  padding-bottom: 5%;
+  line-height: 180%;
+  color: gray;
 }
