@@ -124,8 +124,7 @@ button {
   margin: auto 5%;
 }
 .my-recipies .recipies-list .repicie-item {
-  background-color: white;
-  box-shadow: 5px 3px 40px #6467647b;
+  box-shadow: 5px 3px 40px #c1c1c17b;
   margin: 10px;
   padding: 25px 35px;
   border-radius: 20px;
@@ -135,6 +134,29 @@ button {
   width: 100%;
 
   align-items: center;
+}
+
+.social-stats {
+  padding: 2% 3%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10% 5%;
+  box-shadow: 5px 3px 40px #c1c1c17b;
+  border-radius: 30px;
+}
+.social-stats .stat-item {
+  padding: 0px 8%;
+}
+.social-stats .stat-item h3 {
+  margin-bottom: 18px;
+}
+
+.social-stats .stat-item p {
+  color: black;
+  font-size: 15px;
+  line-height: normal;
+  padding-top: 0px;
+  margin: 0px;
 }
 
 footer {
