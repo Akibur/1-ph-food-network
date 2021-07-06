@@ -195,6 +195,34 @@ header nav a:hover {
   margin: 0px;
 }
 
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10% 5%;
+  padding: 5% 3%;
+  box-shadow: 5px 3px 40px #c1c1c17b;
+  border-radius: 30px;
+}
+#cta-form {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0% 2%;
+}
+#cta-form :focus {
+  outline: none;
+}
+.call-to-action form #email {
+  font-size: 20px;
+  color: rgb(87, 87, 87);
+  text-align: center;
+  padding: 2% 20%;
+  border: #00a907 solid 1px;
+  border-radius: 50px;
+  background-color: #daf9db29;
+}
+
 footer {
   display: flex;
   flex-direction: column;
