@@ -47,7 +47,6 @@ header nav a {
   text-decoration: none;
   color: black;
   padding: 7px 25px;
-  transition: 0.5s;
 }
 
 header nav a:hover {
