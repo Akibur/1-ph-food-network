@@ -136,3 +136,22 @@ button {
 
   align-items: center;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0d674b;
+  margin-top: 10%;
+  padding: 3%;
+}
+
+footer h3 {
+  color: white;
+}
+footer h3 span {
+  color: rgb(178, 255, 91);
+}
+footer p {
+  color: rgb(218, 218, 218);
+}
