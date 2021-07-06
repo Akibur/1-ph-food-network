@@ -5,6 +5,32 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+h1 {
+  font-size: 50px;
+  line-height: 130%;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  color: rgb(77, 77, 77);
+  font-size: 40px;
+  line-height: 130%;
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  line-height: 130%;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-size: 20px;
+  padding-bottom: 5%;
+  line-height: 160%;
+  color: gray;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -14,11 +40,7 @@ body {
 .slider-left {
   width: 50%;
 }
-.slider-left h1 {
-  font-size: 50px;
-  line-height: 130%;
-  font-family: "Montserrat", sans-serif;
-}
+
 .slider-left span {
   color: green;
 }
@@ -31,9 +53,10 @@ body {
 }
 
 button {
+  font-size: 20px;
   display: block;
   background-size: 200% auto;
-  padding: 15px 40px;
+  padding: 20px 60px;
   text-decoration: none;
   color: white;
   border: none;
@@ -44,8 +67,8 @@ button {
     #0d674b 51%,
     #00a907 100%
   );
-  box-shadow: 5px 3px 20px #00a90698;
-  border-radius: 20px;
+  box-shadow: 5px 3px 20px #00a9063a;
+  border-radius: 30px;
 }
 
 .slider-right {
@@ -60,21 +83,56 @@ button {
   margin: 0px;
 }
 
+.about-me-left {
+  width: 50%;
+}
+.about-me-right {
+  width: 50%;
+}
+
 .about-me-left img {
   padding-top: 25%;
-
-  margin: 0px;
 }
-.about-me-right h2 {
+
+.my-recipies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my-recipies .heading {
+  text-align: center;
+  margin: auto 20%;
+}
+
+.my-recipies h2 {
   color: rgb(77, 77, 77);
-  font-size: 45px;
+  font-size: 40px;
   line-height: 130%;
   font-family: "Montserrat", sans-serif;
 }
 
-.about-me-right p {
+.my-recipies .heading p {
   font-size: 20px;
   padding-bottom: 5%;
   line-height: 180%;
   color: gray;
+}
+
+.my-recipies .recipies-list {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 5%;
+}
+.my-recipies .recipies-list .repicie-item {
+  background-color: white;
+  box-shadow: 5px 3px 40px #6467647b;
+  margin: 10px;
+  padding: 25px 35px;
+  border-radius: 20px;
+}
+
+.my-recipies .recipies-list .repicie-item img {
+  width: 100%;
+
+  align-items: center;
 }
