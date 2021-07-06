@@ -31,6 +31,27 @@ p {
   color: gray;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 8%;
+}
+
+header .logo {
+  width: 10%;
+}
+
+header nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 7px 25px;
+}
+
+header nav a:hover {
+  border-bottom: solid #0d674b;
+}
 .container {
   display: flex;
   align-items: center;
